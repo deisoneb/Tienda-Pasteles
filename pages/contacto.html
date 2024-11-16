@@ -1,18 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
 </head>
+
 <body>
+
+  <header>
     <nav class="menu">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./login.html">Registro</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-      <a href="../index.html">⬅️Volver</a>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./login.html">Registro</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+      <table border="">
+        <tr>
+          <td>
+            <h2>Únete a nuestro newsletetter</h2>
+            <p>Recibirás información de pastelería, recomendaciones y recetas de un equipo de pasteleros</p>
+
+            <div>
+              <label for="fname"><b>Nombre</b></label><br>
+              <input type="text" placeholder="Tu nombre" name="fname" id="fname" required /><br />
+            </div>
+            <br>
+
+            <div>
+              <label for="inputEmail"><b>Email</b></label><br>
+              <input type="email" placeholder="user@correo.com" name="inputEmail" id="inputEmail">
+            </div>
+            <br>
+            <div>
+              <label for="phone"><b>Teléfono</b><br></label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"
+                required />
+            </div>
+            <br>
+            <div>
+              <label for="Pasteleria"><b>Pasteleria</b></label> <br>
+              <input type="text" placeholder="Gaby" name="Pasteleria" id="pastel" required /><br />
+            </div>
+            <br>
+            <div>
+              <input type="checkbox" name="legalPolicy" id="legalPolicy" value="true">
+              <label for="legalPolicy">He leído y acepto la <a href="#">Politica de privacidad</a></label>
+            </div>
+            <div>
+              <p>
+                <a href="#">
+                  <button
+                    style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Unirse
+                  </button>
+                </a>
+              </p>
+            </div>
+          </td>
+          <td>
+            <img src="../img/cake1.jpg" alt="Cake" width="700px" height="400px">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <p>
+              <a href="../index.html">
+                <button
+                  style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                  Regresar al Inicio
+                </button>
+              </a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <h5>Todos los derechos recervados 2024 🥨</h5>
+  </footer>
 </body>
+
 </html>

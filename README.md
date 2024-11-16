@@ -1,3 +1,3 @@
 # Tienda de Pasteles
 
-En este sitio puedes encontrar recetas de pasteles, faciles de prepaprar y ademas postres deliciosos.
+En este sitio puedes encontrar recetas de pasteles, faciles de preparar y ademas postres deliciosos.
